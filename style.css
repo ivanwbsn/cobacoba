@@ -1,0 +1,120 @@
+/* css reset */
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  padding: 0 100px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  overflow: hidden;
+  background-color: #f0fdf4;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #4b5563  ;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product {
+  float: left;
+  overflow: hidden;
+}
+
+.product .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #4b5563 ;
+  padding: 16px 18px;
+  background-color: #f0fdf4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+.navbar a:hover,
+.product:hover .dropbtn {
+  background-color: #a7db42;
+}
+
+.product-content {
+  display: none;
+  position: absolute;
+  background-color: #f0fcf5;
+  min-width: 100px;
+  z-index: 1;
+}
+
+.product-content a {
+  float: none;
+  color: 4b5563 ;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.product-content a:hover {
+  background-color: #a7db42;
+}
+
+.product:hover .product-content {
+  display: block;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	margin: 80px;
+	height: 250px;
+}
+
+input[type=text], input[type=number], textarea, select {
+  display: flex;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: #4b5563;
+  display: inline-block;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #ffffff  ;
+  color: #4b5563;
+  padding: 12px 20px;
+  margin: 8px 200px;
+  /* border: none;
+  border-radius: 8px;
+  cursor: pointer; */
+}
+
+input[type=submit]:hover {
+  background-color: #a7db42;
+}
+
+@media screen and (max-width: 768px) {
+  .head .body footer
+}  
+
+@media screen and (max-width: 390x) {
+  .head .body .footer
+}
